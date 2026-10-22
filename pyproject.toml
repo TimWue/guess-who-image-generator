@@ -1,0 +1,13 @@
+[project]
+name = "guess-who"
+version = "0.1.0"
+description = "Fotos per OpenAI in Cartoon-Karten verwandeln und als maßgenaues A4-PDF ausgeben"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.99",
+    "pillow>=10.0",
+    "pillow-heif>=0.16",
+    "reportlab>=4.0",
+    "streamlit>=1.38",
+    "python-dotenv>=1.0",
+]
